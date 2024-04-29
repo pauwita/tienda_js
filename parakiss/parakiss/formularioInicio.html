@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+
+    <!-- hoja de css -->
+    <link rel="stylesheet" href="css/estiloFormulario.css">
+
+    <!-- icono pestaña -->
+    <link rel="icon" type="image/x-icon" href="./img/logos/logoFavicon.png">
+
+    <!-- fuente de google para el cuerpo (Quicksand) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2 style="font-family: 'Quicksand', sans-serif; color: #d7b7b7;">Inicio de sesión</h2>
+    <form>
+        <p class="cursorTexto">
+        <label for="usuario">Usuario</label>
+        <br>
+        <input type="text" name="usuario" required/>
+        </p>
+
+        <p class="cursorTexto">
+        <label for="passwd">Contraseña</label>
+        <br>
+        <input type="password" required />
+        </p>
+
+        <label for="sesion">Mantener sesión iniciada</label>
+        <input type="checkbox" name="sesion">
+
+        <p class="cursorElemento">
+        <input type="submit" value="Entrar">
+        </p>
+    </form>
+
+    <p style="font-family: 'Quicksand', sans-serif">
+        ¿No tienes cuenta? ¡Regístrate <a class="cursorElemento" href="formularioRegistro.html" >aquí</a>!
+    </p>
+
+</body>
+</html>

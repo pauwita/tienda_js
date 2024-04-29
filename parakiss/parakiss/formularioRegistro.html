@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+
+    <!-- hoja de css -->
+    <link rel="stylesheet" href="css/estiloFormulario.css">
+
+    <!-- icono pestaña -->
+    <link rel="icon" type="image/x-icon" href="./img/logos/logoFavicon.png">
+
+    <!-- fuente de google para el cuerpo (Quicksand) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <div>
+        <h2 style="font-family: 'Quicksand', sans-serif; color: #d7b7b7;">Registro</h2>
+    <form>
+        <strong><p style="font-family: 'Quicksand', sans-serif; color: #d7b7b7;">INFORMACIÓN PERSONAL</p></strong>
+        <p class="cursorTexto">
+        <label for="nombre">Nombre</label>
+        <br>
+        <input type="text" name="nombre" required/>
+        </p>
+        
+        <p class="cursorTexto">
+        <label for="apellidos">Apellidos</label>
+        <br>
+        <input type="text" name="apellidos"/>
+        </p>
+
+        <p class="cursorTexto">
+        <label for="email">Correo electrónico</label>
+        <br>
+        <input type="email" id="email" size="30" required />
+        </p>
+
+        <p class="cursorTexto">
+        <label for="passwd">Contraseña</label>
+        <br>
+        <input type="password" required />
+        </p>
+
+        <p class="cursorTexto">
+        <label for="passwd">Repite tu contraseña</label>
+        <br>
+        <input type="password" required />
+        </p>
+        <br>
+
+        <strong><p style="font-family: 'Quicksand', sans-serif; color: #d7b7b7;">INFORMACIÓN DE ENVÍO</p></strong>
+        
+        <p class="cursorElemento">
+        <label for="comunidad">Comunidad</label>
+        <select name="comunidad">
+            <option>Andalucía </option>
+            <option>Aragón</option>
+            <option>Asturias</option>
+            <option>Baleares</option>
+            <option>Canarias</option>
+            <option>Cantabria</option>
+            <option>Castilla La Mancha</option>
+            <option>Castilla y León</option>
+            <option>Cataluña</option>
+            <option>Extremadura</option>
+            <option>Galicia</option>
+            <option>Madrid</option>
+            <option>Murcia</option>
+            <option>Navarra</option>
+            <option>País Vasco</option>
+            <option>La Rioja</option>
+            <option>Valencia</option>
+        </select>
+    </p>
+
+        <p class="cursorTexto">
+        <label for="ciudad">Ciudad</label>
+        <br>
+        <input maxlength="50" type="text" name="ciudad" required/>
+        </p>
+
+        <p class="cursorTexto">
+        <label for="calle">Calle</label>
+        <br>
+        <input maxlength="50" type="text" name="calle" required/>
+        </p>
+
+        <p class="cursorTexto">
+        <label for="cp">Código postal</label>
+        <br>
+        <input pattern="[0-9]{5}" type="text" name="cp" required/>
+        </p>
+
+        <label for="sesion">Recibir notificaciones</label>
+        <input type="checkbox" name="sesion">
+
+        <p class="cursorElemento">
+        <input type="submit" value="Crear cuenta">
+        </p>
+
+    </form>
+    <p style="font-family: 'Quicksand', sans-serif">
+        Volver al <a class="cursorElemento" href="formularioInicio.html">inicio de sesión</a>
+    </p>
+    </div>
+</body>
+</html>

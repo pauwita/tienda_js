@@ -1,0 +1,51 @@
+
+
+form p label{
+    color: #d4a8a8;
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px; 
+}
+
+form label{
+    color: #d4a8a8;
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px; 
+}
+
+/* CUADRITOS FORMULARIO */
+form p input{
+    border-color: #bb9999;
+    border-radius: 10px;
+    color: #d4a8a8;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px; 
+}
+
+/* ENLACE REGISTRO */
+p a {
+    color: #bb9999;
+    text-decoration: underline;
+    font-family: 'Quicksand', sans-serif;
+    }
+
+    #formularioRegistro {
+        display: none;
+    }
+    
+    #formularioRegistro:target {
+        display: block;
+    }
+
+    #mostrarRegistro:target ~ #formularioInicio {
+        display: none;
+    }
+
+    .cursorElemento {
+        cursor: pointer;
+    }
+    
+    .cursorTexto {
+        cursor: text;
+    }
